@@ -1,0 +1,43 @@
+/* post list */
+.posts {
+  background: #191919;
+  color: #ffffff;
+  padding: 50px 0;
+}
+
+.post-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.post-list__item {
+  padding-bottom: 50px;
+}
+
+.post-list__item span {
+	display: block;
+  margin-bottom: 0;
+}
+
+.post-list__item span:nth-of-type(even) {
+	opacity: .6;
+}
+
+.post-list__item a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* post styles */
+.post {
+  padding: 50px 0 150px;
+}
+
+.title {
+	margin-bottom: 0;
+}
+
+.meta {
+	opacity: .6;
+}

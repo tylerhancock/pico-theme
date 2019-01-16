@@ -1,0 +1,18 @@
+<section class="posts">    
+	<div class="container">
+    <ul class="post-list">
+		  {% for post in site.posts %}
+		    <li class="post-list__item">
+		      <div class="row">
+		        <div class="col-12 col-md-10 col-lg-8 mx-auto">
+		        	<a class="link" href="{{ post.url }}" title="{{ post.title }}">
+					      <span class="font-xl">{{ post.title }}</span>
+					      <span class="font-sm">{{ post.date | date: "%B %-d, %Y" }}</span>
+					    </a>
+				    </div>
+			    </div>
+			  </li>
+		  {% endfor %}
+		</ul>
+	</div>
+</section>
